@@ -28,7 +28,7 @@ function Turn({author, books, highlight, onAnswerSelected}) {
     const mapping = {
       'correct': 'green',
       'wrong': 'red',
-      'none': 'white'
+      'none': ''
     };
     return mapping[highlight];
   }
